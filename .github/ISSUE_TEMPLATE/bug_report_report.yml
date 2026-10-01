@@ -50,6 +50,16 @@ body:
     validations:
       required: true
 
+  - type: file
+    id: Screenshot
+    attributes:
+      label: Screenshot
+      description: "Скриншот"
+      placeholder: "Скриншот"
+    validations:
+      required: true
+
+
   - type: dropdown
     id: Priority
     attributes:
