@@ -23,3 +23,22 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: Steps
+    attributes:
+      label: Steps
+      description: "Шаги воспроизведения "
+      placeholder: "Шаги воспроизведения"
+    validations:
+      required: true
+
+  - type: textarea
+    id: 
+    attributes:
+      label: Header
+      description: "Ожидаемый результат"
+      placeholder: "Ожидаемый результат"
+    validations:
+      required: true
+
+
