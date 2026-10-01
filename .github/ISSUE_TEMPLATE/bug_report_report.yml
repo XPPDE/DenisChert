@@ -33,11 +33,20 @@ body:
       required: true
 
   - type: textarea
-    id: 
+    id: ExpectedResults
     attributes:
-      label: Header
+      label: ExpectedResults
       description: "Ожидаемый результат"
       placeholder: "Ожидаемый результат"
+    validations:
+      required: true
+
+  - type: textarea
+    id: ActualResults
+    attributes:
+      label: ActualResults
+      description: "Фактический  результат"
+      placeholder: "Фактический  результат"
     validations:
       required: true
 
