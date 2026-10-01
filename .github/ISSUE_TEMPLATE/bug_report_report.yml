@@ -50,6 +50,15 @@ body:
     validations:
       required: true
 
+  - type: textarea
+    id: Screenshot
+    attributes:
+      label: Screenshot
+      description: "Скриншоты / Доп. материалы"
+      placeholder: "Скриншоты / Доп. материалы"
+    validations:
+      required: true
+
   - type: dropdown
     id: Priority
     attributes:
