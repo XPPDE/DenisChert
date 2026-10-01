@@ -9,31 +9,17 @@ body:
     id: Header
     attributes:
       label: Header
-      description: описание
-      placeholder: описание
-    validations:
-      required: true #поле обязательно для заполнения
-
-      - type: dropdown
-    id: идентификатор поля ввода
-    attributes:
-      label: подпись поля
-      description: описание
-      options:
-       - список
-       - опций
+      description: "Заголовок"
+      placeholder: "Заголовок"
     validations:
       required: true
 
-  - type: markdown
+  - type: textarea
+    id: Discription
     attributes:
-      value: |
-        Отобразить текст с разметкой markdown
-  - type: checkboxes
-    id: идентификатор поля ввода
-    attributes:
-      label: подпись
-      description: описание
-      options:
-      - label: флажок 1
-        required: true #флажок обязателен или нет
+      label: Discription
+      description: "Описание"
+      placeholder: "Описание"
+    validations:
+      required: true
+
