@@ -50,7 +50,7 @@ body:
     validations:
       required: true
 
-  - type: file
+  - type: input
     id: Screenshot
     attributes:
       label: Screenshot
