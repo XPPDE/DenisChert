@@ -51,16 +51,16 @@ body:
       required: true
 
   - type: dropdown
-      id: Priority
-      attributes:
-        label: "Приоритет"
-        description: "Приоритет"
-        options:
-         - фигня
-         - Важно
-         - Очень важно
-         - Супер важно
-      validations:
-        required: true
+    id: Priority
+    attributes:
+      label: "Приоритет"
+      description: "Приоритет"
+      options:
+       - фигня
+       - Важно
+       - Очень важно
+       - Супер важно
+    validations:
+      required: true
 
   
